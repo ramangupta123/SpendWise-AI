@@ -1,0 +1,12 @@
+# Ignore local databases and cache
+*.db
+expenses.db
+__pycache__/
+
+# Ignore API Keys & Secrets
+.env
+.streamlit/secrets.toml
+
+# Virtual Environment
+venv/
+env/
